@@ -1,0 +1,21 @@
+{
+  "name": "flexstyl",
+  "version": "0.0.1",
+  "description": "Flex helper classes for stylus",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rascada/flexstyl.git"
+  },
+  "keywords": [
+    "stylus",
+    "flex",
+    "helper"
+  ],
+  "stylus": "index.js",
+  "author": "Damian Martyniak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rascada/flexstyl/issues"
+  },
+  "homepage": "https://github.com/rascada/flexstyl#readme"
+}
