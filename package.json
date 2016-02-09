@@ -1,6 +1,6 @@
 {
   "name": "flexstyl",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "Flex helper classes for stylus",
   "repository": {
     "type": "git",
