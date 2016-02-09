@@ -1,3 +1,21 @@
+wrap(what)
+  if what == '1'
+    flex-wrap wrap
+  if what == '0'
+    flex-wrap nowrap
+
+  if what == 'true'
+    flex-wrap wrap
+  if what == 'false'
+    flex-wrap nowrap
+
+  if what == 'wrap'
+    flex-wrap wrap
+  if what == 'nowrap'
+    flex-wrap nowrap
+
+  if what == 'reverse'
+    flex-wrap  wrap-reverse
 
 justify(what)
   if what == 'start'
@@ -50,8 +68,3 @@ flex(what)
     flex-shrink 1
   if what == 'noshrink'
     flex-shrink 0
-
-  if what == 'wrap'
-    flex-wrap wrap
-  if what == 'nowrap'
-    flex-wrap nowrap
