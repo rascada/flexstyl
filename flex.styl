@@ -1,0 +1,57 @@
+
+justify(what)
+  if what == 'start'
+    justify-content flex-start
+  if what == 'center'
+    justify-content center
+  if what == 'end'
+    justify-content flex-end
+
+  if what == 'between'
+    justify-content space-between
+  if what == 'around'
+    justify-content space-around
+
+
+align(what)
+  if what == 'start'
+    align-items flex-start
+  if what == 'center'
+    align-items center
+  if what == 'end'
+    align-items flex-end
+
+  if what == 'stretch'
+    align-items stretch
+  if what == 'baseline'
+    justify-content baseline
+
+flex(what)
+  if what == 'line'
+    display inline-flex
+  if what == 'styl'
+    display flex
+
+  if what == 'center'
+    justify center
+    align center
+
+  if what == 'row'
+    flex-direction row
+  if what == 'column'
+    flex-direction column
+
+  if what == 'grow'
+    flex-grow 1
+  if what == 'nogrow'
+    flex-grow 0
+
+  if what == 'shrink'
+    flex-shrink 1
+  if what == 'noshrink'
+    flex-shrink 0
+
+  if what == 'wrap'
+    flex-wrap wrap
+  if what == 'nowrap'
+    flex-wrap nowrap
