@@ -10,8 +10,11 @@ npm i flexstyl # --save
 ## @import
 ```stylus
 @import 'path_to_flex.styl'
+// or
 @import '../node_modules/flexstyl/flex'
+// or
 @import '~flexstyl/flex' //webpack
+// just import flex.styl regardless whence
 ```
 
 ## examples
