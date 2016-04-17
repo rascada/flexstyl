@@ -1,6 +1,8 @@
 # flexstyl
 Flex helper for stylus
 
+##### support for sass and less in the near future
+
 ## installation
 #### cdn - [flex.styl](https://npmcdn.com/flexstyl/flex.styl)
 #### npm
@@ -20,28 +22,32 @@ npm i flexstyl # --save
 ## examples
 ```stylus
 // example #1
-flex styl // display flex
-align end // align-items flex-end
-justify between  // justify-content space-between
+flex styl // display: flex;
+align end // align-items: flex-end;
+justify between  // justify-content: space-between;
 
-wrap reverse // flex-wrap reverse
+wrap reverse // flex-wrap: reverse;
 
 // example #2
 flex styl
 flex center
-// display flex
-// align-items center
-// justify-content center
+// display: flex;
+// align-items: center;
+// justify-content: center;
 
 // example #3
-wrap 1
-wrap wrap
-wrap true
-// flex-wrap wrap
+flex line // display: inline-flex;
+justify start // justify-content: flex-start;
+align baseline // align-items: baseline;
+flex grow // flex-grow: 1;
+flex noshrink // flex-shrink: 0;
+flex column // flex-direction: column;
+wrap 1/wrap/true // flex-wrap: wrap;
 
 // example #4
-wrap 0
-wrap nowrap
-wrap false
-//flex-wrap nowrap
+flex row // flex-direction: column;
+justify around // justify-content: space-around;
+flex nogrow // flex-grow: 0;
+flex shrink // flex-shrink: 1;
+wrap 0/nowrap/false //flex-wrap: nowrap;
 ```
