@@ -4,7 +4,7 @@ Flex helper for stylus
 # moved! - [flexstyl](https://github.com/simple-flex/flexstyl)
 
 ## installation
-#### cdn - [flex.styl](https://npmcdn.com/flexstyl/flex.styl)
+#### cdn - [flex.styl](https://unpkg.com/flexstyl/flex.styl)
 #### npm
 ```sh
 npm i flexstyl # --save
